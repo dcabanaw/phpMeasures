@@ -50,7 +50,7 @@ $data_three = new \Measurement\Data('1','Mb'); // 1 megabit, 1000000 bits
 You can also create your own Measure classes
 
 ```php
-class MyMeasure extends \Measuremnet\Measure
+class MyMeasure extends \Measurement\Measure
 {
     protected $no_rounding = false;
     protected $standard_unit = 'x';
